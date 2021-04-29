@@ -1,0 +1,52 @@
+@import "./components/pages/Profile/components/Animation/index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  .block {
+    width: 400px;
+    min-height: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .block__img {
+      width: 100%;
+      height: 350px;
+      background: #37393d;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .block__btn {
+      width: 100%;
+      margin: 7px 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      .label {
+        width: 185px;
+      }
+      .label__width {
+        width: 380px;
+      }
+    }
+  }
+  .block__save {
+    text-align: center;
+  }
+}
